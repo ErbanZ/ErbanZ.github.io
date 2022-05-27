@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>使用 Hexo 搭建 github pages 后续（主题配置）</title>
+    <link href="/2022/05/27/pages220527/"/>
+    <url>/2022/05/27/pages220527/</url>
+    
+    <content type="html"><![CDATA[<h1 id="0-前言"><a href="#0-前言" class="headerlink" title="0. 前言"></a>0. 前言</h1><blockquote><p>通过 hexo 和 github pages 已经搭建好了个人blog框架，也替换了自己喜欢的 hexo 主题样式，将blog部署后在线上查看，网站样式大体上是和模板样式一致的，但是还是有一些区别：文章页面的字数统计和预计时长未显示、各导航页面的大图展示样式不一致等问题。这篇文章就是通过查看 fuild 主题配置文档和 Hexo 配置文档进行解决这些问题。</p></blockquote><h1 id="1-主题配置"><a href="#1-主题配置" class="headerlink" title="1. 主题配置"></a>1. 主题配置</h1><h2 id="1-1-文章页-字数统计和预计时长"><a href="#1-1-文章页-字数统计和预计时长" class="headerlink" title="1.1 文章页-字数统计和预计时长"></a>1.1 文章页-字数统计和预计时长</h2><p>按照 <a href="https://hexo.fluid-dev.com/docs/start/#%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8">开始使用 | Hexo Fluid 用户手册 (fluid-dev.com)</a> 完成 fluid 主题安装后，首先发现的问题就是在文章页面-文章标题下的字数统计以及预估时长显示错误，展示为 <code>&#123;undefined&#125;字 &#123;undefined&#125;分钟</code>，于是我便意识到这应该是配置项没有配置到位，接下来便开始查看文档的漫漫长路。</p><p>首先是在 <a href="https://hexo.fluid-dev.com/docs/guide/#%E6%97%A5%E6%9C%9F-%E5%AD%97%E6%95%B0-%E9%98%85%E8%AF%BB%E6%97%B6%E9%95%BF-%E9%98%85%E8%AF%BB%E6%95%B0">配置指南 | Hexo Fluid 用户手册 (fluid-dev.com)</a> 的“日期/字数/阅读时长/阅读数”章节中找到配置规范：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs yml"><span class="hljs-comment"># 显示在文章页大标题下的文章信息，除了作者和阅读次数，其他功能都是默认开启的。</span><br><span class="hljs-attr">post:</span><br>  <span class="hljs-attr">meta:</span><br>    <span class="hljs-string">···</span><br>    <span class="hljs-string">···</span><br>    <span class="hljs-attr">wordcount:</span>  <span class="hljs-comment"># 字数统计</span><br>      <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span><br>      <span class="hljs-attr">format:</span> <span class="hljs-string">&quot;&#123;&#125; 字&quot;</span>  <span class="hljs-comment"># 显示的文本，&#123;&#125;是数字的占位符（必须包含)，下同</span><br>    <span class="hljs-attr">min2read:</span>  <span class="hljs-comment"># 阅读时间</span><br>      <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span><br>      <span class="hljs-attr">format:</span> <span class="hljs-string">&quot;&#123;&#125; 分钟&quot;</span><br>    <span class="hljs-string">···</span><br>    <span class="hljs-string">···</span><br></code></pre></td></tr></table></figure><p>然后在通过对比我本地blog源文件中名为 <code>_config.fluid.yml</code> 的主题配置文件的内容时，发现在该文件中 <code>wordcount</code> 和 <code>min2read</code> 部分缺少字段 <code>format: &quot;&#123;&#125; 字&quot;</code> 和 <code>format: &quot;&#123;&#125; 分钟&quot;</code>，配置项的缺失导致了最后部署的静态网页该部分未正常展示。解决方法是也很简单，只需要将本地的 <code>_config.fluid.yml</code> 主题配置文件的 <code>wordcount</code> 和 <code>min2read</code> 部分补充完整，然后重新发布即可；</p><h2 id="1-2-导航页面的大图展示样式"><a href="#1-2-导航页面的大图展示样式" class="headerlink" title="1.2 导航页面的大图展示样式"></a>1.2 导航页面的大图展示样式</h2><p>第二个发现的问题便是网站各导航页面（ <code>首页</code> | <code>归档</code> | <code>分类</code> | <code>标签</code> | <code>关于</code> ）的大图展示高度不一致，这对于我来说可太不舒服了，于是准备看看能不能将它们都配置成同样的显示高度。这次直接查看主题配置文件 <code>_config.fluid.yml</code> 中有没有相关的配置项可供使用，啪~很快啊，我便发现了如下的内容：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs yml"><span class="hljs-comment"># 首页</span><br><span class="hljs-attr">index:</span><br>  <span class="hljs-string">···</span><br>  <span class="hljs-string">···</span><br>  <span class="hljs-comment"># 头图高度，屏幕百分比</span><br>  <span class="hljs-comment"># Height ratio of banner image</span><br>  <span class="hljs-comment"># Available: 0 - 100</span><br>  <span class="hljs-attr">banner_img_height:</span> <span class="hljs-number">100</span><br>  <span class="hljs-string">···</span><br>  <span class="hljs-string">···</span> <br></code></pre></td></tr></table></figure><p>除了在首页的配置项下面找到了该字段 <code>banner_img_height</code> ，也在文章 <code>post</code> 、归档 <code>archive</code> 、分类 <code>category</code> 、 标签 <code>tag</code> 、 关于 <code>about</code> 、 自定义 <code>custom</code> 、 404页 <code>page404</code> 中找到了相关设置图片高度的字段 <code>banner_img_height</code> ，那么接下来的操作便简单了，只需要将该字段设置成同一个值就行。</p><p>另外我在查看主题配置文件 <code>_config.fluid.yml</code> 中的时候发现该文件的注释十分详细，完全可以当作一个配置文档来进行使用，如果还是有不懂的地方也可以直接查看<a href="https://hexo.fluid-dev.com/docs/guide/#%E6%96%87%E7%AB%A0%E9%A1%B5%E9%A1%B6%E9%83%A8%E5%A4%A7%E5%9B%BE"> fuild 主题配置文档 | Hexo Fluid 用户手册 </a>和<a href="https://hexo.io/zh-cn/docs/front-matter"> Hexo 配置文档</a> 。</p><h1 id="2-参考"><a href="#2-参考" class="headerlink" title="2. 参考"></a>2. 参考</h1><ul><li><a href="https://hexo.fluid-dev.com/docs/guide/#%E6%96%87%E7%AB%A0%E9%A1%B5%E9%A1%B6%E9%83%A8%E5%A4%A7%E5%9B%BE">配置指南 | Hexo Fluid 用户手册</a></li><li><a href="https://hexo.io/zh-cn/docs/front-matter">Front-matter | Hexo</a></li><li><a href="http://momentjs.cn/docs/#/parsing/string-format/">文档 | Moment.js 中文网 (momentjs.cn)</a></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>互联网</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Blog</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>使用 Hexo 搭建 github pages</title>
     <link href="/2022/05/23/pages220523/"/>
     <url>/2022/05/23/pages220523/</url>
