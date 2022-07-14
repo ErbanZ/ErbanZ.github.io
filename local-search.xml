@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>July 10：Weekly Journal Board</title>
+    <link href="/2022/07/14/pages220710/"/>
+    <url>/2022/07/14/pages220710/</url>
+    
+    <content type="html"><![CDATA[<h1 id="⑤"><a href="#⑤" class="headerlink" title="⑤"></a>⑤</h1><blockquote><p>春到人间景色新，桃红李白柳条青。香车宝马闲来往，引却东风入禁城。酾剩酒，豁吟情，顿教忘却利和名。豪来试说当年事，犹记旌阳伏水精。</p></blockquote><h2 id="2022年7月4日"><a href="#2022年7月4日" class="headerlink" title="2022年7月4日"></a>2022年7月4日</h2><p>问题描述：设计一个类，求一个数据流中第k大的数（使用二叉搜索树会有不错的效果）</p><p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c70653826f1d43b393a95ad2b2feb302~tplv-k3u1fbpfcp-watermark.image" alt="image.png"></p><h3 id="235-二叉搜索树的最近公共祖先"><a href="#235-二叉搜索树的最近公共祖先" class="headerlink" title="235. 二叉搜索树的最近公共祖先"></a><a href="https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/">235. 二叉搜索树的最近公共祖先</a></h3><h2 id="2022年7月5日"><a href="#2022年7月5日" class="headerlink" title="2022年7月5日"></a>2022年7月5日</h2><p>一棵普通二叉搜索树和一棵平衡二叉树：</p><p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/52a9adb37fdc4cdea8f6fd545bc64531~tplv-k3u1fbpfcp-watermark.image" alt="image.png"></p><h3 id="110-平衡二叉树"><a href="#110-平衡二叉树" class="headerlink" title="110. 平衡二叉树"></a><a href="https://leetcode.cn/problems/balanced-binary-tree/">110. 平衡二叉树</a></h3><h2 id="2022年7月6日"><a href="#2022年7月6日" class="headerlink" title="2022年7月6日"></a>2022年7月6日</h2><h3 id="108-将有序数组转换为二叉搜索树"><a href="#108-将有序数组转换为二叉搜索树" class="headerlink" title="108. 将有序数组转换为二叉搜索树"></a><a href="https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree/">108. 将有序数组转换为二叉搜索树</a></h3><h2 id="2022年7月7日"><a href="#2022年7月7日" class="headerlink" title="2022年7月7日"></a>2022年7月7日</h2><h3 id="26-删除有序数组中的重复项"><a href="#26-删除有序数组中的重复项" class="headerlink" title="26. 删除有序数组中的重复项"></a><a href="https://leetcode.cn/problems/remove-duplicates-from-sorted-array/">26. 删除有序数组中的重复项</a></h3><h2 id="2022年7月8日"><a href="#2022年7月8日" class="headerlink" title="2022年7月8日"></a>2022年7月8日</h2><h3 id="122-买卖股票的最佳时机-II"><a href="#122-买卖股票的最佳时机-II" class="headerlink" title="122. 买卖股票的最佳时机 II"></a><a href="https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/">122. 买卖股票的最佳时机 II</a></h3><h2 id="2022年7月9日"><a href="#2022年7月9日" class="headerlink" title="2022年7月9日"></a>2022年7月9日</h2><h2 id="2022年7月10日"><a href="#2022年7月10日" class="headerlink" title="2022年7月10日"></a>2022年7月10日</h2><h3 id="189-轮转数组"><a href="#189-轮转数组" class="headerlink" title="189. 轮转数组"></a><a href="https://leetcode.cn/problems/rotate-array/">189. 轮转数组</a></h3>]]></content>
+    
+    
+    <categories>
+      
+      <category>互联网</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>weeklyJournal</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>July 3：Weekly Journal Board</title>
     <link href="/2022/07/08/pages220703/"/>
     <url>/2022/07/08/pages220703/</url>
