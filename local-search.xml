@@ -4,6 +4,56 @@
   
   
   <entry>
+    <title>April 7：Weekly Journal Board</title>
+    <link href="/2022/08/12/pages220807/"/>
+    <url>/2022/08/12/pages220807/</url>
+    
+    <content type="html"><![CDATA[<h1 id="⑨"><a href="#⑨" class="headerlink" title="⑨"></a>⑨</h1><blockquote><p>老夫聊发少年狂，左牵黄，右擎苍，锦帽貂裘，千骑卷平冈。为报倾城随太守，亲射虎，看孙郎。</p><p>酒酣胸胆尚开张，鬓微霜，又何妨！持节云中，何日遣冯唐？会挽雕弓如满月，西北望，射天狼。</p></blockquote><h2 id="2022年8月1日"><a href="#2022年8月1日" class="headerlink" title="2022年8月1日"></a>2022年8月1日</h2><h3 id="21-合并两个有序链表"><a href="#21-合并两个有序链表" class="headerlink" title="21. 合并两个有序链表"></a><a href="https://leetcode.cn/problems/merge-two-sorted-lists/">21. 合并两个有序链表</a></h3><h2 id="2022年8月2日"><a href="#2022年8月2日" class="headerlink" title="2022年8月2日"></a>2022年8月2日</h2><h3 id="234-回文链表"><a href="#234-回文链表" class="headerlink" title="234. 回文链表"></a><a href="https://leetcode.cn/problems/palindrome-linked-list/">234. 回文链表</a></h3><h2 id="2022年8月3日"><a href="#2022年8月3日" class="headerlink" title="2022年8月3日"></a>2022年8月3日</h2><h3 id="Iframe-详解"><a href="#Iframe-详解" class="headerlink" title="Iframe 详解"></a><a href="https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies#iframe_%E8%AF%A6%E8%A7%A3" title="Permalink to Iframe 详解">Iframe 详解</a></h3><p>网络安全的一个很好的经验法则是： <strong>“你怎么谨慎都不为过，如果你决定要做这件事，多检查一遍；如果是别人做的，在被证明是安全的之前，都假设这是危险的。”</strong><br>A good rule for web security is： “You can never be too cautious. If you made it, double-check it anyway. If someone else made it, assume it’s dangerous until proven otherwise.”</p><h2 id="2022年8月4日"><a href="#2022年8月4日" class="headerlink" title="2022年8月4日"></a>2022年8月4日</h2><h3 id="141-环形链表"><a href="#141-环形链表" class="headerlink" title="141. 环形链表"></a><a href="https://leetcode.cn/problems/linked-list-cycle/">141. 环形链表</a></h3><h2 id="2022年8月5日"><a href="#2022年8月5日" class="headerlink" title="2022年8月5日"></a>2022年8月5日</h2><h3 id="104-二叉树的最大深度"><a href="#104-二叉树的最大深度" class="headerlink" title="104. 二叉树的最大深度"></a><a href="https://leetcode.cn/problems/maximum-depth-of-binary-tree/">104. 二叉树的最大深度</a></h3><h2 id="2022年8月6日"><a href="#2022年8月6日" class="headerlink" title="2022年8月6日"></a>2022年8月6日</h2><h2 id="2022年8月7日"><a href="#2022年8月7日" class="headerlink" title="2022年8月7日"></a>2022年8月7日</h2><h3 id="98-验证二叉搜索树"><a href="#98-验证二叉搜索树" class="headerlink" title="98. 验证二叉搜索树"></a><a href="https://leetcode.cn/problems/validate-binary-search-tree/">98. 验证二叉搜索树</a></h3>]]></content>
+    
+    
+    <categories>
+      
+      <category>互联网</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>weeklyJournal</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>July 31：Weekly Journal Board</title>
+    <link href="/2022/08/12/pages220731/"/>
+    <url>/2022/08/12/pages220731/</url>
+    
+    <content type="html"><![CDATA[<h1 id="⑧"><a href="#⑧" class="headerlink" title="⑧"></a>⑧</h1><blockquote><p>十年生死两茫茫，不思量，自难忘。千里孤坟，无处话凄凉。纵使相逢应不识，尘满面，鬓如霜。</p><p>夜来幽梦忽还乡，小轩窗，正梳妆。相顾无言，惟有泪千行。料得年年肠断处，明月夜，短松冈。</p></blockquote><h2 id="2022年7月25日"><a href="#2022年7月25日" class="headerlink" title="2022年7月25日"></a>2022年7月25日</h2><p>该题描述需认真查看👇👇👇👇</p><h3 id="8-字符串转换整数-atoi"><a href="#8-字符串转换整数-atoi" class="headerlink" title="8. 字符串转换整数 (atoi)"></a><a href="https://leetcode.cn/problems/string-to-integer-atoi/">8. 字符串转换整数 (atoi)</a></h3><h2 id="2022年7月26日"><a href="#2022年7月26日" class="headerlink" title="2022年7月26日"></a>2022年7月26日</h2><h3 id="28-实现-strStr"><a href="#28-实现-strStr" class="headerlink" title="28. 实现 strStr()"></a><a href="https://leetcode.cn/problems/implement-strstr/">28. 实现 strStr()</a></h3><h2 id="2022年7月27日"><a href="#2022年7月27日" class="headerlink" title="2022年7月27日"></a>2022年7月27日</h2><h3 id="38-外观数列"><a href="#38-外观数列" class="headerlink" title="38. 外观数列"></a><a href="https://leetcode.cn/problems/count-and-say/">38. 外观数列</a></h3><h2 id="2022年7月28日"><a href="#2022年7月28日" class="headerlink" title="2022年7月28日"></a>2022年7月28日</h2><h3 id="14-最长公共前缀"><a href="#14-最长公共前缀" class="headerlink" title="14. 最长公共前缀"></a><a href="https://leetcode.cn/problems/longest-common-prefix/">14. 最长公共前缀</a></h3><h2 id="2022年7月29日"><a href="#2022年7月29日" class="headerlink" title="2022年7月29日"></a>2022年7月29日</h2><h3 id="237-删除链表中的节点"><a href="#237-删除链表中的节点" class="headerlink" title="237. 删除链表中的节点"></a><a href="https://leetcode.cn/problems/delete-node-in-a-linked-list/">237. 删除链表中的节点</a></h3><p>leetcode19：注意多种解法👇👇👇👇</p><h3 id="19-删除链表的倒数第-N-个结点"><a href="#19-删除链表的倒数第-N-个结点" class="headerlink" title="19. 删除链表的倒数第 N 个结点"></a><a href="https://leetcode.cn/problems/remove-nth-node-from-end-of-list/">19. 删除链表的倒数第 N 个结点</a></h3><h2 id="2022年7月30日"><a href="#2022年7月30日" class="headerlink" title="2022年7月30日"></a>2022年7月30日</h2><h2 id="2022年7月31日"><a href="#2022年7月31日" class="headerlink" title="2022年7月31日"></a>2022年7月31日</h2><h3 id="206-反转链表"><a href="#206-反转链表" class="headerlink" title="206. 反转链表"></a><a href="https://leetcode.cn/problems/reverse-linked-list/">206. 反转链表</a></h3>]]></content>
+    
+    
+    <categories>
+      
+      <category>互联网</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>weeklyJournal</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>July 24：Weekly Journal Board</title>
     <link href="/2022/07/29/pages220724/"/>
     <url>/2022/07/29/pages220724/</url>
